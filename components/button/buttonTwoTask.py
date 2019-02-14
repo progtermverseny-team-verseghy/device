@@ -6,4 +6,4 @@ async def buttonTwoTask(store):
     while True:
         if False: # TODO: Implement it with actual button
             store.dispatch("button", "buttonTwoPressed", False)
-        await asyncio.sleep(0)
+        await asyncio.sleep(1 / 30)

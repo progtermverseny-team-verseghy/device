@@ -32,7 +32,6 @@ def initialize(type):
     loop.create_task(buttonOneTask(store))
     loop.create_task(buttonTwoTask(store))
 
-
     loop.run_forever()
 
 
