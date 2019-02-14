@@ -1,6 +1,6 @@
 import uasyncio as asyncio
 from components.state import Type
-from components.wifi import scanStartHandler, scanCompleteHandler, updateWifiAPWithPassiveHandler,
+from components.wifi import scanStartHandler, scanCompleteHandler, updateWifiAPWithPassiveHandler
 from components.button import buttonOneTask, buttonTwoTask
 from components.led import setBottomLayoutHandler, setTopLayoutHandler
 from components.minigame import startMinigameHandler, resetMinigameHandler
