@@ -7,4 +7,4 @@ async def buttonOneTask(store):
     while True:
         if False: # TODO: Implement it with actual button
             store.dispatch("button", "buttonOnePressed", False)
-        await asyncio.sleep(0)
+        await asyncio.sleep(1 / 30)

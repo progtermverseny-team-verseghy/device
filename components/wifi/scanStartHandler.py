@@ -1,7 +1,7 @@
 import network
 
 
-async def scanningTask(store):
+async def scanStartHandler(store):
     scannerInterface = network.WLAN(network.STA_IF)
     scannerInterface.active(True)
 
