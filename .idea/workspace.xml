@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f709ef5-aac2-41b1-87c3-b76d68825c0f" name="Default Changelist" comment="" />
+    <list default="true" id="3f709ef5-aac2-41b1-87c3-b76d68825c0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/button/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/button/buttonOneTask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/button/buttonTwoTask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/led/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/led/setBottomLayoutHandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/led/setTopLayoutHandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/minigame/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/minigame/minigameHandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/state/index2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/wifi/scanCompleteHandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/wifi/scanStartHandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/wifi/scanStartTask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/wifi/updateWifiAPWithGen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/wifi/updateWifiAPWithPassiveHandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/store.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/submodules/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/submodules/button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/submodules/led.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/submodules/minigame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/submodules/state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/submodules/wifi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/state/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/state/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/state/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/state/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/state/wifihandler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wifi/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/wifi/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wifi/asny.py" beforeDir="false" afterPath="$PROJECT_DIR$/asny.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wifi/scanner.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,62 +42,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="644">
+              <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wifi/asny.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="1" column="19" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/state/wifihandler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wifi/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wifi/scanner.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/state/index.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -84,6 +68,9 @@
       <find>Event</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -95,8 +82,35 @@
         <option value="$PROJECT_DIR$/wifi/asny.py" />
         <option value="$PROJECT_DIR$/state/index.py" />
         <option value="$PROJECT_DIR$/state/wifihandler.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/wifi/scanner.py" />
+        <option value="$PROJECT_DIR$/components/wifi/__init__.py" />
+        <option value="$PROJECT_DIR$/store/__init__.py" />
+        <option value="$PROJECT_DIR$/components/state/__init__.py" />
+        <option value="$PROJECT_DIR$/deleteme.py" />
+        <option value="$PROJECT_DIR$/components/state/wifihandler.py" />
+        <option value="$PROJECT_DIR$/components/state/index2.py" />
+        <option value="$PROJECT_DIR$/store/submodules/state.py" />
+        <option value="$PROJECT_DIR$/store/submodules/minigame.py" />
+        <option value="$PROJECT_DIR$/store/submodules/wifi.py" />
+        <option value="$PROJECT_DIR$/store/submodules/led.py" />
+        <option value="$PROJECT_DIR$/store/submodules/button.py" />
+        <option value="$PROJECT_DIR$/store/submodules/__init__.py" />
+        <option value="$PROJECT_DIR$/store/store.py" />
+        <option value="$PROJECT_DIR$/components/wifi/scanner.py" />
+        <option value="$PROJECT_DIR$/components/wifi/wifihandler.py" />
+        <option value="$PROJECT_DIR$/components/led/setTopLayoutHandler.py" />
+        <option value="$PROJECT_DIR$/components/led/setBottomLayoutHandler.py" />
+        <option value="$PROJECT_DIR$/components/button/buttonOneTask.py" />
+        <option value="$PROJECT_DIR$/components/button/buttonTwoTask.py" />
+        <option value="$PROJECT_DIR$/components/wifi/scanCompleteHandler.py" />
+        <option value="$PROJECT_DIR$/components/wifi/scanStartTask.py" />
+        <option value="$PROJECT_DIR$/components/wifi/scanStartHandler.py" />
+        <option value="$PROJECT_DIR$/components/wifi/updateWifiAPWithPassiveHandler.py" />
+        <option value="$PROJECT_DIR$/components/wifi/updateWifiAPWithGen.py" />
+        <option value="$PROJECT_DIR$/components/minigame/startMinigameHandler.py" />
+        <option value="$PROJECT_DIR$/components/minigame/minigameHandler.py" />
+        <option value="$PROJECT_DIR$/components/minigame/__init__.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -107,6 +121,7 @@
     <option name="width" value="927" />
     <option name="height" value="1055" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -122,12 +137,36 @@
             <path>
               <item name="micropython" type="b2602c69:ProjectViewProjectNode" />
               <item name="micropython" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micropython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micropython" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="minigame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micropython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micropython" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="state" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="micropython" type="b2602c69:ProjectViewProjectNode" />
               <item name="micropython" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="wifi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micropython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micropython" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micropython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micropython" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="submodules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -142,10 +181,16 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="serialMonitor.commands" value="setsaet&#10;asdf&#10;test" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.micropython.configurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/button" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/wifi" />
+      <recent name="$PROJECT_DIR$/components" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/wifi" />
     </key>
   </component>
@@ -180,12 +225,15 @@
       <workItem from="1549735180755" duration="1096000" />
       <workItem from="1549736295686" duration="211000" />
       <workItem from="1549736521879" duration="10050000" />
-      <workItem from="1549821046558" duration="9500000" />
+      <workItem from="1549821046558" duration="11834000" />
+      <workItem from="1549865433311" duration="1344000" />
+      <workItem from="1550069944458" duration="9551000" />
+      <workItem from="1550148625471" duration="6211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20857000" />
+    <option name="totallyTimeSpent" value="40297000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -200,21 +248,21 @@
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.257886" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26674044" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32932165" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997233" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.36870897" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5002767" side_tool="true" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.36842105" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32932165" />
       <window_info anchor="bottom" id="Serial Monitor" order="13" weight="0.32932165" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -229,38 +277,10 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/boot.py" />
-    <entry file="file://$PROJECT_DIR$/state/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" selection-start-column="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_PLUGINS_DIR$/intellij-micropython/typehints/esp8266/network.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="3" lean-forward="true" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/state/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wifi/asny.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -271,36 +291,197 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/state/wifihandler.py">
+    <entry file="file://$PROJECT_DIR$/components/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wifi/__init__.py">
+    <entry file="file://$APPLICATION_PLUGINS_DIR$/intellij-micropython/typehints/esp8266/network.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="61" column="11" lean-forward="true" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asny.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="22" selection-start-line="22" selection-end-line="24" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deleteme.py" />
+    <entry file="file://$PROJECT_DIR$/store/submodules/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/submodules/state.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/submodules/led.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/submodules/minigame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/submodules/button.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/submodules/wifi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/store.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/led/setTopLayoutHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/state/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/state/index2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/button/buttonOneTask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/button/buttonTwoTask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/led/setBottomLayoutHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/minigame/minigameHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/wifi/updateWifiAPWithGen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/wifi/scanStartHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/wifi/scanStartTask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/wifi/scanCompleteHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/wifi/updateWifiAPWithPassiveHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/state/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/wifi/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/minigame/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="644">
+          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wifi/scanner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>

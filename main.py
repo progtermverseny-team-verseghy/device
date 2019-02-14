@@ -1,20 +1,39 @@
 import uasyncio as asyncio
-import machine
-from state import Type, State, wifihandler
-from wifi import Scanner
+from components.state import Type
+from components.wifi import scanStartHandler, scanCompleteHandler, updateWifiAPWithPassiveHandler,
+from components.button import buttonOneTask, buttonTwoTask
+from components.led import setBottomLayoutHandler, setTopLayoutHandler
+from components.minigame import startMinigameHandler, resetMinigameHandler
+from store import Store
 
 
 def initialize(type):
-    state = State(type)
-    scanner = Scanner()
+    store = Store()
+
+    store.dispatch("state", "setType", type)
 
     loop = asyncio.get_event_loop()
-    loop.create_task(scanner.scanningTask())
-    loop.create_task(wifihandler.wifiHandler(scanner.scannFinished, state))
+
+    # WIFI
+    loop.create_task(scanCompleteHandler(store))
+    loop.create_task(scanStartHandler(store))
+
+    # STATE
+
+    # MINIGAME
+    loop.create_task(startMinigameHandler(store))
+    loop.create_task(resetMinigameHandler(store))
+
+    # LED
+    loop.create_task(setBottomLayoutHandler(store))
+    loop.create_task(setTopLayoutHandler(store))
+
+    # BUTTON
+    loop.create_task(buttonOneTask(store))
+    loop.create_task(buttonTwoTask(store))
+
+
     loop.run_forever()
-
-
-pin = machine.Pin(2, machine.Pin.OUT)
 
 
 initialize(
