@@ -3,7 +3,7 @@ from components.state import Type
 from components.wifi import scanStartHandler, scanCompleteHandler, updateWifiAPWithPassiveHandler
 from components.button import buttonOneTask, buttonTwoTask
 from components.led import setBottomLayoutHandler, setTopLayoutHandler
-from components.minigame import startMinigameHandler, resetMinigameHandler
+from components.minigame import startMinigameHandler, resetMinigameHandler, drawMinigameTask, resetMinigameLevelHandler
 from store import Store
 
 
@@ -23,6 +23,8 @@ def initialize(type):
     # MINIGAME
     loop.create_task(startMinigameHandler(store))
     loop.create_task(resetMinigameHandler(store))
+    loop.create_task(drawMinigameTask(store))
+    loop.create_task(resetMinigameLevelHandler(store))
 
     # LED
     loop.create_task(setBottomLayoutHandler(store))
